@@ -12,7 +12,7 @@ git2 = { version = "0.13", optional = true, default-features = false }
 chrono = { version = "0.4.19", optional = true }
 
 [features]
-default = ["bash-shell", "libgit"]
+default = ["bare-shell", "libgit"]
 bash-shell = []
 bare-shell = []
 zsh-shell = []
